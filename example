@@ -1,0 +1,2 @@
+python -m my_tool.cli greet "World"
+# Output: Hello, World!
