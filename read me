@@ -1,0 +1,14 @@
+# My Tool 🔧
+
+A simple and useful Python tool for everyday tasks.
+
+## Features
+- ✅ Feature 1: Do something fast
+- ✅ Feature 2: Automate a boring task
+- ✅ Feature 3: Easy to extend
+
+## Installation
+```bash
+git clone https://github.com/your-username/my-tool.git
+cd my-tool
+pip install -r requirements.txt
