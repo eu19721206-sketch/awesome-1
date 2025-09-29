@@ -1,0 +1,22 @@
+
+---
+
+## 2. `cli.py`（命令行入口示例）
+
+```python
+import argparse
+from my_tool.utils import greet
+
+def main():
+    parser = argparse.ArgumentParser(description="My Tool CLI")
+    parser.add_argument("command", help="Command to run (e.g., greet)")
+    parser.add_argument("name", nargs="?", help="Name for greeting")
+    args = parser.parse_args()
+
+    if args.command == "greet":
+        print(greet(args.name or "User"))
+    else:
+        print("Unknown command")
+
+if __name__ == "__main__":
+    main()
